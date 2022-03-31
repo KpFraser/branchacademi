@@ -3,7 +3,7 @@
         <div class="container mx-auto px-3">
             <div class="grid grid-cols-1 md:grid-cols-2 py-5">
                 <div class="">
-                    <h1 class="text-white font-semibold text-sm">Healty Communities choose <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 " ancrText="Branch Academi" /> for personal and communoty development.</h1>
+                    <h1 class="text-white font-semibold text-sm">Healty Communities choose <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 " ancrText="Branch Academi" /> for personal and communoty development.</h1>
                 </div>
                 <div></div>
             </div>

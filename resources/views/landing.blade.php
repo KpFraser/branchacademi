@@ -4,9 +4,9 @@
     <section class="main-content">
         <div class="grid lg:grid-cols-2 md:grid-cols-1 bg-black py-9 items-center justify-items-center">
             <div class="py-3">
-                <h1 class="text-4xl text-white leading-normal font-bold">Unlock of the<br> <span class="text-purple-600"> potential</span><br>  your community </h1>
+                <h1 class="text-4xl text-white leading-normal font-bold">Unlock of the<br> <span class="text-teal-900-600"> potential</span><br>  your community </h1>
                 <p class="text-sm text-gray-400">Branch Academi qualification for<br> for Assigning, Organizers, Leaders, Assistants<br> in the community projects</p>
-                <x-tagui.button buttonType="button" buttonClass="p-3.5 bg-purple-500 text-white hover:bg-purple-600 mt-3" buttonText="Get Started" module="customButton"></x-tagui.button>
+                <x-tagui.button buttonType="button" buttonClass="p-3.5 bg-teal-900-500 text-white hover:bg-teal-900-600 mt-3" buttonText="Get Started" module="customButton"></x-tagui.button>
             </div>
             <div class="py-3">
                 <x-tagui.img imgClass="h-80" imgSrc="/img/logo_branch.svg" imgAlt="Branch Logo"></x-tagui.img>
@@ -66,14 +66,14 @@
                 <div class="py-3">
                     <h4 class="font-bold text-xl py-2">Organizers</h4>
                     <x-tagui.para paraClass="" paraText="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam natus<br> quaerat ex quos possimus mollitia unde numquam esse, amet,<br> sed quae eaque ratione incidunt et."></x-tagui.para>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-purple-600" module="customAncr"> </x-tagui.ancr>
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-teal-900-600" module="customAncr"> </x-tagui.ancr>
                 </div>
             </div>
             <div class="grid lg:grid-cols-2 md:grid-cols-1 py-10 items-center justify-items-center">
                 <div class="py-3">
                     <h4 class="font-bold text-xl py-2">Leaders</h4>
                     <x-tagui.para paraClass="" paraText="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam natus<br> quaerat ex quos possimus mollitia unde numquam esse, amet,<br> sed quae eaque ratione incidunt et."></x-tagui.para>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-purple-600" module="customAncr"> </x-tagui.ancr>
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-teal-900-600" module="customAncr"> </x-tagui.ancr>
                 </div>
                 <div class="py-3">
                     <x-tagui.img imgClass="h-72" imgSrc="{{url('img/participants.svg')}}" imgAlt="Participants"></x-tagui.img>
@@ -86,14 +86,14 @@
                 <div class="py-3">
                     <h4 class="font-bold text-xl py-2">Assistants</h4>
                     <x-tagui.para paraClass="" paraText="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam natus<br> quaerat ex quos possimus mollitia unde numquam esse, amet,<br> sed quae eaque ratione incidunt et."></x-tagui.para>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-purple-600" module="customAncr"> </x-tagui.ancr>
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-teal-900-600" module="customAncr"> </x-tagui.ancr>
                 </div>
             </div>
             <div class="grid lg:grid-cols-2 md:grid-cols-1 py-10 items-center justify-items-center">
                 <div class="py-3">
                     <h4 class="font-bold text-xl py-2">Participants</h4>
                     <x-tagui.para paraClass="" paraText="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam natus<br> quaerat ex quos possimus mollitia unde numquam esse, amet,<br> sed quae eaque ratione incidunt et."></x-tagui.para>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-purple-600" module="customAncr"> </x-tagui.ancr>
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-teal-900-600" module="customAncr"> </x-tagui.ancr>
                 </div>
                 <div class="py-3">
                     <x-tagui.img imgClass="h-72" imgSrc="{{url('img/developing.svg')}}" imgAlt="Developing"></x-tagui.img>
@@ -106,7 +106,7 @@
                 <div class="py-3">
                     <h4 class="font-bold text-xl py-2">Sponser</h4>
                     <x-tagui.para paraClass="" paraText="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam natus<br> quaerat ex quos possimus mollitia unde numquam esse, amet,<br> sed quae eaque ratione incidunt et."></x-tagui.para>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-purple-600" module="customAncr"> </x-tagui.ancr>
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 font-semibold pt-3.5" ancrText="Learn More" iconClass="fas fa-greater-than text-teal-900-600" module="customAncr"> </x-tagui.ancr>
                 </div>
             </div>
         </div>
@@ -118,8 +118,8 @@
             <div class="grid grid-cols-1 bg-gray-200 py-8">
                 <div class="pl-16">
                     <h1 class="font-bold text-2xl">Like what you see?</h1>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 text-sm py-2" ancrText="Take a minute and drop us and email to" /><br>
-                    <x-tagui.ancr ancrHref="#" ancrClass="text-purple-600 text-sm py-2" ancrText="contact@branchacademi.com" />
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 text-sm py-2" ancrText="Take a minute and drop us and email to" /><br>
+                    <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-600 text-sm py-2" ancrText="contact@branchacademi.com" />
                 </div>
             </div>
         </div>

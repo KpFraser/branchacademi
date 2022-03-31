@@ -28,16 +28,16 @@
                             <x-input type="password" id="password" name="password" class="w-full pl-10 border-2" placeholder="Password" module="customInput"/>
                         </div>
                         <div class="py-2">
-                            <x-tagui.button buttonType="button" buttonClass="w-full bg-purple-500 text-white py-2"  buttonText="Login" module="customButton"></x-tagui.button>
+                            <x-tagui.button buttonType="button" buttonClass="w-full bg-teal-900-500 text-white py-2"  buttonText="Login" module="customButton"></x-tagui.button>
                         </div>
                         <div class="py-1 text-center text-sm">
-                            <x-tagui.para paraClass="" paraText="or" ancrHref="#" ancrClass="text-purple-500 font-bold" ancrText="Forget Password" module="customParaAncr"></x-tagui.para>
+                            <x-tagui.para paraClass="" paraText="or" ancrHref="#" ancrClass="text-teal-900-500 font-bold" ancrText="Forget Password" module="customParaAncr"></x-tagui.para>
                         </div>
                         <div class="pt-2 text-center text-sm">
-                            <x-tagui.para paraClass="" paraText="Don't have an Account?" ancrHref="#" ancrClass="text-purple-500 font-bold" ancrText="Sign Up" module="customParaAncr"></x-tagui.para>
+                            <x-tagui.para paraClass="" paraText="Don't have an Account?" ancrHref="#" ancrClass="text-teal-900-500 font-bold" ancrText="Sign Up" module="customParaAncr"></x-tagui.para>
                         </div>
                         <div class="pt-1 text-center text-sm">
-                            <x-tagui.ancr ancrHref="#" ancrClass="text-purple-500 font-bold" ancrText="Login with your organization" />
+                            <x-tagui.ancr ancrHref="#" ancrClass="text-teal-900-500 font-bold" ancrText="Login with your organization" />
                         </div>
                     </div>
                 </div>
