@@ -3,7 +3,7 @@
         <a href="#" class="flex">
             <div class="flex items-center">
                 <x-tagui.img imgClass="h-11" imgSrc="/img/logo_A.svg" imgAlt="Workflow"></x-tagui.img>
-                <x-tagui.span spanClass="text-xs pl-3" spanText="Why branch Academi?"></x-tagui.span>
+                <x-tagui.span spanClass="text-xs pl-3" spanText=""></x-tagui.span>
             </div>
         </a>
         <div class="flex md:order-2 items-center">
@@ -19,9 +19,10 @@
         </div>
         <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1" id="navbarSupportedContent1">
             <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium px-6">
-                <x-tagui.li ancrHref="#" ancrClass="block py-2 pr-4 pl-3 text-gray-700 lg:hover:text-gray-600 border-b border-gray-100 hover:bg-teal-900-500 md:hover:bg-transparent md:border-0 md:hover:text-teal-900-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-teal-900-500 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" ancrText="Solution" ></x-tagui.li>
-                <x-tagui.li ancrHref="#" ancrClass="block py-2 pr-4 pl-3 text-gray-700 lg:hover:text-gray-600 border-b border-gray-100 hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-teal-900-500 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" ancrText="Resource" ></x-tagui.li>
+                <x-tagui.span spanClass="text-teal-900" spanText="what's happenin'"></x-tagui.span>
                 <li class="block md:hidden pl-3 pt-1">
+
+
                     <x-tagui.ancr ancrHref="#" ancrClass="" ancrText="Login" />
                     <x-tagui.button buttonType="button" buttonClass="p-3.5 bg-teal-900-500 text-white ml-3 hover:bg-teal-900-700" buttonText="Get Started" module="customButton"></x-tagui.button>
                 </li>
