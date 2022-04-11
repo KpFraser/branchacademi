@@ -22,6 +22,9 @@ Route::get('/home', function () {
 Route::get('/calendar', function () {
     return view('calendar');
 });
+Route::get('/cpg', function () {
+    return view('cpg');
+});
 Route::get('/landing', function () {
     return view('landing');
 });
