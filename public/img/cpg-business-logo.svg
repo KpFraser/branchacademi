@@ -40,7 +40,11 @@
      id="namedview1007"
      showgrid="false"
      inkscape:zoom="2.4687904"
+<<<<<<< HEAD
      inkscape:cx="82.226501"
+=======
+     inkscape:cx="10.126415"
+>>>>>>> b0782da227d240b2ee9eca663643746804b927f9
      inkscape:cy="14"
      inkscape:window-x="67"
      inkscape:window-y="27"
@@ -52,6 +56,7 @@
        id="style969">.a{fill:#a435f0;}</style>
   </defs>
   <g
+<<<<<<< HEAD
      transform="translate(-200.87367,-222.32877)"
      id="g1003">
     <path
@@ -154,6 +159,8 @@
        style="fill:#a435f0" />
   </g>
   <g
+=======
+>>>>>>> b0782da227d240b2ee9eca663643746804b927f9
      id="g1740"
      transform="matrix(0.86173033,0,0,0.86173033,-1.7719047,1.167839)">
     <g

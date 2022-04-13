@@ -16,9 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
 Route::get('/home', function () {
     return view('home');
+});
+Route::get('/calendar', function () {
+    return view('calendar');
+});
+Route::get('/cpg', function () {
+    return view('cpg');
 });
 Route::get('/landing', function () {
     return view('landing');
@@ -26,12 +31,32 @@ Route::get('/landing', function () {
 Route::get('/events', function () {
     return view('events');
 });
-Route::get('/newlogin', function () {
-    return view('newlogin');
+Route::get('/udemy', function () {
+    return view('udemy');
 });
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/events', function () {
+    return view('events');
+});
+Route::get('/signup', function () {
+    return view('signup');
+});
+Route::get('/chat', function () {
+    return view('chat');
+});
+Route::get('/forgot', function () {
+    return view('forgot');
+});
+Route::get('/folio', function () {
+        return view('folio');
+});
+Route::get('/signin', function () {
+    return view('signin');
+});
+Route::get('/signup', function () {
+    return view('signup');
+});
+Route::get('/folio', function () {
+    return view('folio');
+});
 
 require __DIR__.'/auth.php';
