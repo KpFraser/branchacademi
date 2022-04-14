@@ -2,7 +2,7 @@
     <div class="container flex flex-wrap justify-between items-center mx-auto px-4">
         <a href="#" class="flex">
             <div class="flex items-center">
-                <x-tagui.img imgClass="h-11" imgSrc="/img/logo_A.svg" imgAlt="Workflow"></x-tagui.img>
+                <x-tagui.img imgClass="h-5" imgSrc="/img/Branch_logo.svg" imgAlt="Workflow"></x-tagui.img>
                 <x-tagui.span spanClass="text-xs pl-3" spanText=""></x-tagui.span>
             </div>
         </a>
