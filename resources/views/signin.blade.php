@@ -1,6 +1,5 @@
 <x-master-layout>
 	<x-master-header></x-master-header>
-		<!-- Main Content Start -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,34 +28,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
 
 
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-
-
-
-        <!--Page Level Styles -->
-        <link rel="stylesheet" href="https://aatrox.herokuapp.com/css/pages/session/session.v3.css" />
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css" />
-
-
-<script>
-    console.log('No custom Styles available.')
-</script>
-
-
-        <link rel="stylesheet" href="https://aatrox.herokuapp.com/css/main.bundle.css" />
-
-
-
-
-
             </head>
-
     <body>
-
 			<div class="auth-layout-wrap flex justify-center min-h-screen flex-col bg-cover items-center"	    style="background-image: url('img/SignUp.svg')">
     <div class="container-session-v1 max-w-4xl">
         <div class="card overflow-hidden">
@@ -90,18 +63,6 @@
         </div>
     </div>
 </div>
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script src="https://aatrox.herokuapp.com/js/pages/doc.script.js"></script>
-
-
-
-
-<script>
-    console.log('No custom Styles available.')
-</script>
-
     </body>
 
 </html>

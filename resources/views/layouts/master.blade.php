@@ -12,12 +12,14 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        {{--<script src="https://unpkg.com/vue@3" ></script>--}}
         <script src="{{ asset('js/cstmvue.js') }}" defer></script>
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-gray-100" id="app">
 
             <!-- Page Heading -->
 {{--            <header class="bg-white shadow">

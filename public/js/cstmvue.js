@@ -1,6 +1,10 @@
-$(function(){})
-const app = new Vue({
-	el: "#app",
-	data: {},
-	mounted(){}
-})
+Vue.createApp({
+    data() {
+        return {
+            loginForm: {},
+            message: 'Hello World'
+        }
+    },
+    mounted() {
+    }
+}).mount('#app')

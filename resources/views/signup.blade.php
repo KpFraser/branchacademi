@@ -33,9 +33,6 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css" />
 
-<script>
-    console.log('No custom Styles available.')
-</script>
 
         <link rel="stylesheet" href="https://aatrox.herokuapp.com/css/main.bundle.css" />
 
@@ -80,7 +77,6 @@
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script src="https://aatrox.herokuapp.com/js/pages/doc.script.js"></script>
 
 
 
