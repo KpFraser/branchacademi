@@ -19,9 +19,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
-Route::get('/calendar', function () {
-    return view('calendar');
-});
+
 Route::get('/cpg', function () {
     return view('cpg');
 });
@@ -57,6 +55,12 @@ Route::get('/signup', function () {
 });
 Route::get('/folio', function () {
     return view('folio');
+});
+
+Route::group(['middleware' => 'auth'], function() {
+	Route::get('/calendar', function () {
+	    return view('calendar');
+	});
 });
 
 Route::get('/dashboard', function () {

@@ -4,6 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+{{--Theme Links--}}
+        <link rel="apple-touch-icon" sizes="180x180" href="https://aatrox.herokuapp.com/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://aatrox.herokuapp.com/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://aatrox.herokuapp.com/images/favicons/favicon-16x16.png" />
+        <link rel="stylesheet" href="https://aatrox.herokuapp.com/css/main.bundle.css" />
+        <!--Page Level Styles -->
+        <link rel="stylesheet" href="https://aatrox.herokuapp.com/css/pages/app/event-calendar.css" />
+        <link href="https://aatrox.herokuapp.com/vendors/fullcalendar/main.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" />
+
+{{--Theme Links--}}
 
         <title>{{ config('app.name', 'LARAVEL') }}</title>
         <!-- Fonts -->
@@ -17,6 +30,9 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
         {{--<script src="https://unpkg.com/vue@3" ></script>--}}
         <script src="{{ asset('js/cstmvue.js') }}" defer></script>
+
+
+
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100" id="app">
